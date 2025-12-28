@@ -29,7 +29,7 @@ function activate(context) {
         /** @type {string | undefined} */
         const figmaToken = config.get('figmaToken');
         /** @type {string | undefined} */
-        const googleApiKey = "AIzaSyCiSBHj4iW2kxbQDBGuQuWORXKUFzWZwCw"; 
+        const googleApiKey = "removed and deleted paste yours here"; 
 
         if (!googleApiKey) {
             vscode.window.showErrorMessage('Missing Google API Key. Please check settings.');
